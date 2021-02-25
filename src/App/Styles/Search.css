@@ -1,0 +1,39 @@
+.search-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #14213d;
+}
+
+.form{
+    
+    width: 700px;
+    margin: 0 auto;
+}
+.ready-list{
+    display: flex;
+    flex-direction: column;
+}
+.list-btn{
+    background-color:rgba(0,0,0,1);
+    border: 1px solid rgba(0,0,0,1);
+    color: wheat;
+    font-size: 12px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    margin:auto 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.list-btn:hover{
+    background-color:rgba(0,0,0,0.70);
+}
+.db-logo{
+    width: 120px;
+    height: 120px;
+    justify-content: flex-start;
+}

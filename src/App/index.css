@@ -2,27 +2,13 @@ html{
     font-size: 10px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     padding: 0;
     text-align: center;
-    
+    background-color: #14213d;
 }
-.main-container {
-    
-    background-color: lightgreen;
-    margin:0 auto;
-    max-width:1000px;
-    padding: 40px;
-    
-}
-.main-title {
-    font-size: 3rem;
-}
+
 
 .form {
     display:grid;
@@ -44,10 +30,10 @@ body {
 }
 
 .button {
-    background-color: rgba(0,0,0,0.75);
-    color: white;
+    background-color: rgba(0,0,0,1);
+    color: wheat;
     padding: 1rem 2rem;
-    border: 1px solid rgba(0,0,0,0.75);
+    border: 1px solid rgba(0,0,0,1);
     border-radius: 20px;
     font-size: 1.4rem;
     cursor: pointer;
@@ -55,7 +41,7 @@ body {
 }
 
 .button:hover {
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0,0,0,0.70);
 }
 
 
