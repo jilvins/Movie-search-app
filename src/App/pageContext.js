@@ -12,6 +12,7 @@ function ContextProvider ({children}) {
     const [movieId, setMovieId] = useState()
     const [mostPopular, setMostPopular] = useState()
     const [trending, setTrending] = useState()
+    
 
     const searchMovies = async (e) => {
         e.preventDefault();

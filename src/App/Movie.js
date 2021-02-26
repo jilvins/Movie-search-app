@@ -19,11 +19,11 @@ function Movie () {
                 <div className="movie-description">
                         <h3 className="movie-title">{singlMovie.title}</h3>
                         <p className="movie-info">{singlMovie.overview}</p>
-                        <div className="movie-genre">
+                       {singlMovie.genres ? <div className="movie-genre">
                         {singlMovie.genres.map(genre => (
                         <p >{genre.name}</p>
-                        ))} 
-                        </div>
+                       ))}  
+                        </div> : null }
                         <Link to='/' id='btn'>
                         back to list
                         </Link>
