@@ -25,7 +25,7 @@ function Movie () {
                        ))}  
                         </div> : null }
                         <Link to='/' id='btn'>
-                        back to list
+                        back to the list
                         </Link>
                         </div>
                        

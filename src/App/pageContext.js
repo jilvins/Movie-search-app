@@ -6,7 +6,7 @@ const Context = React.createContext()
 
 function ContextProvider ({children}) {
     const [data, setData] = useState()
-    const [query, setQuery] = useState("Star Wars")
+    const [query, setQuery] = useState()
     const [movies, setMovies] = useState([]);
     const [singlMovie, setSinglMovie] = useState([])
     const [movieId, setMovieId] = useState()

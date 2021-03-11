@@ -1,9 +1,9 @@
 .single-movie{
-width: 90vw;
-  margin: 4rem auto;
-  display: flex;
-  gap: 2rem;
-  color: wheat;
+    width: 90vw;
+    margin: 4rem auto;
+    display: flex;
+    gap: 2rem;
+    color: wheat;
 }
 .movie-image{
     height: 70vh;
@@ -21,7 +21,7 @@ width: 90vw;
     color: wheat;
     font-size: 1.5rem;
     width: 80px;
-    height: 40px;
+    height: 30px;
     border-radius: 15px;
     padding: 20px;
     margin:0 auto;
@@ -51,5 +51,23 @@ width: 90vw;
     font-size: 1.6rem;
     color: lightsteelblue;
 }
+
+@media only screen and (max-width: 800px) {
+    .single-movie {
+      flex-direction: column;
+    }
+    .movie-description{
+        margin: 0 auto;
+    }
+    .movie-title{
+        font-size: 2.5rem;
+    }
+    .movie-info{
+        font-size: 1.5rem;
+    }
+    .movie-genre p{
+        font-size: 1.4rem;
+    }
+  }
 
 

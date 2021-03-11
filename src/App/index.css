@@ -27,6 +27,7 @@ body {
     border-radius: 20px;
     border: 1px solid #ddd;
     margin-bottom: 1rem;
+    outline-style: none; 
 }
 
 .button {
@@ -36,13 +37,18 @@ body {
     border: 1px solid rgba(0,0,0,1);
     border-radius: 20px;
     font-size: 1.4rem;
-    cursor: pointer;
     transition: background-color 250ms;
 }
-
-.button:hover {
-    background-color: rgba(0,0,0,0.70);
+button {
+    cursor: pointer;
 }
 
+button:hover{
+    background-color: rgba(0,0,0,0.60);
+}
+
+button:focus { 
+    outline-style: none; 
+}
 
 
